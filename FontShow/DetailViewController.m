@@ -14,11 +14,13 @@
 
 @implementation DetailViewController
 @synthesize textView;
+@synthesize fontSizeSlider;
 
 - (void)dealloc
 {
     [_detailItem release];
     [textView release];
+    [fontSizeSlider release];
     [super dealloc];
 }
 
@@ -59,6 +61,10 @@
 							
 - (void)viewDidUnload {
     [self setTextView:nil];
+    [self setFontSizeSlider:nil];
     [super viewDidUnload];
+}
+- (IBAction)changeFontSize:(id)sender {
+    textView.font = [UIFont fontWithName:self.detailItem size: self.fontSizeSlider.value];
 }
 @end

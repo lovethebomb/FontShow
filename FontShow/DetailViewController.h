@@ -12,5 +12,7 @@
 
 @property (strong, nonatomic) id detailItem;
 @property (retain, nonatomic) IBOutlet UITextView *textView;
+@property (retain, nonatomic) IBOutlet UISlider *fontSizeSlider;
+- (IBAction)changeFontSize:(id)sender;
 
 @end
