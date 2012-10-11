@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBD5F9E31626F06400CC828F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD5F9E21626F06400CC828F /* UIKit.framework */; };
+		BBD5F9E51626F06400CC828F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD5F9E41626F06400CC828F /* Foundation.framework */; };
+		BBD5F9E71626F06400CC828F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD5F9E61626F06400CC828F /* CoreGraphics.framework */; };
+		BBD5F9ED1626F06400CC828F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBD5F9EB1626F06400CC828F /* InfoPlist.strings */; };
+		BBD5F9EF1626F06400CC828F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD5F9EE1626F06400CC828F /* main.m */; };
+		BBD5F9F31626F06400CC828F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD5F9F21626F06400CC828F /* AppDelegate.m */; };
+		BBD5F9F61626F06400CC828F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD5F9F51626F06400CC828F /* MasterViewController.m */; };
+		BBD5F9F91626F06400CC828F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD5F9F81626F06400CC828F /* DetailViewController.m */; };
+		BBD5F9FC1626F06400CC828F /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBD5F9FA1626F06400CC828F /* MasterViewController.xib */; };
+		BBD5F9FF1626F06400CC828F /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBD5F9FD1626F06400CC828F /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBD5F9DE1626F06400CC828F /* FontShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD5F9E21626F06400CC828F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BBD5F9E41626F06400CC828F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BBD5F9E61626F06400CC828F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BBD5F9EA1626F06400CC828F /* FontShow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontShow-Info.plist"; sourceTree = "<group>"; };
+		BBD5F9EC1626F06400CC828F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBD5F9EE1626F06400CC828F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBD5F9F01626F06400CC828F /* FontShow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontShow-Prefix.pch"; sourceTree = "<group>"; };
+		BBD5F9F11626F06400CC828F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBD5F9F21626F06400CC828F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBD5F9F41626F06400CC828F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		BBD5F9F51626F06400CC828F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		BBD5F9F71626F06400CC828F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BBD5F9F81626F06400CC828F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BBD5F9FB1626F06400CC828F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		BBD5F9FE1626F06400CC828F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBD5F9DB1626F06400CC828F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD5F9E31626F06400CC828F /* UIKit.framework in Frameworks */,
+				BBD5F9E51626F06400CC828F /* Foundation.framework in Frameworks */,
+				BBD5F9E71626F06400CC828F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBD5F9D31626F06400CC828F = {
+			isa = PBXGroup;
+			children = (
+				BBD5F9E81626F06400CC828F /* FontShow */,
+				BBD5F9E11626F06400CC828F /* Frameworks */,
+				BBD5F9DF1626F06400CC828F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBD5F9DF1626F06400CC828F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBD5F9DE1626F06400CC828F /* FontShow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD5F9E11626F06400CC828F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBD5F9E21626F06400CC828F /* UIKit.framework */,
+				BBD5F9E41626F06400CC828F /* Foundation.framework */,
+				BBD5F9E61626F06400CC828F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBD5F9E81626F06400CC828F /* FontShow */ = {
+			isa = PBXGroup;
+			children = (
+				BBD5F9F11626F06400CC828F /* AppDelegate.h */,
+				BBD5F9F21626F06400CC828F /* AppDelegate.m */,
+				BBD5F9F41626F06400CC828F /* MasterViewController.h */,
+				BBD5F9F51626F06400CC828F /* MasterViewController.m */,
+				BBD5F9F71626F06400CC828F /* DetailViewController.h */,
+				BBD5F9F81626F06400CC828F /* DetailViewController.m */,
+				BBD5F9FA1626F06400CC828F /* MasterViewController.xib */,
+				BBD5F9FD1626F06400CC828F /* DetailViewController.xib */,
+				BBD5F9E91626F06400CC828F /* Supporting Files */,
+			);
+			path = FontShow;
+			sourceTree = "<group>";
+		};
+		BBD5F9E91626F06400CC828F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBD5F9EA1626F06400CC828F /* FontShow-Info.plist */,
+				BBD5F9EB1626F06400CC828F /* InfoPlist.strings */,
+				BBD5F9EE1626F06400CC828F /* main.m */,
+				BBD5F9F01626F06400CC828F /* FontShow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBD5F9DD1626F06400CC828F /* FontShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD5FA021626F06400CC828F /* Build configuration list for PBXNativeTarget "FontShow" */;
+			buildPhases = (
+				BBD5F9DA1626F06400CC828F /* Sources */,
+				BBD5F9DB1626F06400CC828F /* Frameworks */,
+				BBD5F9DC1626F06400CC828F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontShow;
+			productName = FontShow;
+			productReference = BBD5F9DE1626F06400CC828F /* FontShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBD5F9D51626F06400CC828F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Heymès Lucas";
+			};
+			buildConfigurationList = BBD5F9D81626F06400CC828F /* Build configuration list for PBXProject "FontShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BBD5F9D31626F06400CC828F;
+			productRefGroup = BBD5F9DF1626F06400CC828F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBD5F9DD1626F06400CC828F /* FontShow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBD5F9DC1626F06400CC828F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD5F9ED1626F06400CC828F /* InfoPlist.strings in Resources */,
+				BBD5F9FC1626F06400CC828F /* MasterViewController.xib in Resources */,
+				BBD5F9FF1626F06400CC828F /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBD5F9DA1626F06400CC828F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD5F9EF1626F06400CC828F /* main.m in Sources */,
+				BBD5F9F31626F06400CC828F /* AppDelegate.m in Sources */,
+				BBD5F9F61626F06400CC828F /* MasterViewController.m in Sources */,
+				BBD5F9F91626F06400CC828F /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBD5F9EB1626F06400CC828F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBD5F9EC1626F06400CC828F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BBD5F9FA1626F06400CC828F /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBD5F9FB1626F06400CC828F /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		BBD5F9FD1626F06400CC828F /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBD5F9FE1626F06400CC828F /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBD5FA001626F06400CC828F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBD5FA011626F06400CC828F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBD5FA031626F06400CC828F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontShow/FontShow-Prefix.pch";
+				INFOPLIST_FILE = "FontShow/FontShow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BBD5FA041626F06400CC828F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontShow/FontShow-Prefix.pch";
+				INFOPLIST_FILE = "FontShow/FontShow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBD5F9D81626F06400CC828F /* Build configuration list for PBXProject "FontShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD5FA001626F06400CC828F /* Debug */,
+				BBD5FA011626F06400CC828F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD5FA021626F06400CC828F /* Build configuration list for PBXNativeTarget "FontShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD5FA031626F06400CC828F /* Debug */,
+				BBD5FA041626F06400CC828F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBD5F9D51626F06400CC828F /* Project object */;
+}
