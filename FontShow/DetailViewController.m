@@ -13,11 +13,12 @@
 @end
 
 @implementation DetailViewController
+@synthesize textView;
 
 - (void)dealloc
 {
     [_detailItem release];
-    [_detailDescriptionLabel release];
+    [textView release];
     [super dealloc];
 }
 
@@ -39,7 +40,8 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        textView.font = [UIFont fontWithName:self.detailItem size: 24];
+        self.navigationItem.title = self.detailItem;
     }
 }
 
@@ -50,25 +52,13 @@
     [self configureView];
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    self.detailDescriptionLabel = nil;
-}
-
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        self.title = NSLocalizedString(@"Detail", @"Detail");
-    }
-    return self;
-}
 							
+- (void)viewDidUnload {
+    [self setTextView:nil];
+    [super viewDidUnload];
+}
 @end

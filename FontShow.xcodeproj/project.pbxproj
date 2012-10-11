@@ -17,6 +17,7 @@
 		BBD5F9F91626F06400CC828F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD5F9F81626F06400CC828F /* DetailViewController.m */; };
 		BBD5F9FC1626F06400CC828F /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBD5F9FA1626F06400CC828F /* MasterViewController.xib */; };
 		BBD5F9FF1626F06400CC828F /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBD5F9FD1626F06400CC828F /* DetailViewController.xib */; };
+		BBD5FA081626FB5000CC828F /* cat-big-teeth 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD5FA071626FB5000CC828F /* cat-big-teeth 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		BBD5F9F81626F06400CC828F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		BBD5F9FB1626F06400CC828F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
 		BBD5F9FE1626F06400CC828F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		BBD5FA071626FB5000CC828F /* cat-big-teeth 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat-big-teeth 2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		BBD5F9D31626F06400CC828F = {
 			isa = PBXGroup;
 			children = (
+				BBD5FA071626FB5000CC828F /* cat-big-teeth 2.png */,
 				BBD5F9E81626F06400CC828F /* FontShow */,
 				BBD5F9E11626F06400CC828F /* Frameworks */,
 				BBD5F9DF1626F06400CC828F /* Products */,
@@ -84,12 +87,8 @@
 			children = (
 				BBD5F9F11626F06400CC828F /* AppDelegate.h */,
 				BBD5F9F21626F06400CC828F /* AppDelegate.m */,
-				BBD5F9F41626F06400CC828F /* MasterViewController.h */,
-				BBD5F9F51626F06400CC828F /* MasterViewController.m */,
-				BBD5F9F71626F06400CC828F /* DetailViewController.h */,
-				BBD5F9F81626F06400CC828F /* DetailViewController.m */,
-				BBD5F9FA1626F06400CC828F /* MasterViewController.xib */,
-				BBD5F9FD1626F06400CC828F /* DetailViewController.xib */,
+				BBD5FA051626F0E200CC828F /* Master */,
+				BBD5FA061626F0EA00CC828F /* Detail */,
 				BBD5F9E91626F06400CC828F /* Supporting Files */,
 			);
 			path = FontShow;
@@ -104,6 +103,26 @@
 				BBD5F9F01626F06400CC828F /* FontShow-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBD5FA051626F0E200CC828F /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				BBD5F9F41626F06400CC828F /* MasterViewController.h */,
+				BBD5F9F51626F06400CC828F /* MasterViewController.m */,
+				BBD5F9FA1626F06400CC828F /* MasterViewController.xib */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		BBD5FA061626F0EA00CC828F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				BBD5F9F71626F06400CC828F /* DetailViewController.h */,
+				BBD5F9F81626F06400CC828F /* DetailViewController.m */,
+				BBD5F9FD1626F06400CC828F /* DetailViewController.xib */,
+			);
+			name = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +179,7 @@
 				BBD5F9ED1626F06400CC828F /* InfoPlist.strings in Resources */,
 				BBD5F9FC1626F06400CC828F /* MasterViewController.xib in Resources */,
 				BBD5F9FF1626F06400CC828F /* DetailViewController.xib in Resources */,
+				BBD5FA081626FB5000CC828F /* cat-big-teeth 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
